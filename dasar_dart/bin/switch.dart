@@ -6,26 +6,27 @@ void main(List<String> arguments) {
 
   switch (number) {
     case 0:
-    print("nol");
-    break;
+      print("nol");
+      break;
     case 1:
-    print("satu");
-    break;
+      print("satu");
+      break;
     case 2:
-    print("dua");
-    break;
+      print("dua");
+      break;
     default:
-    print("bilangan lainnya");
+      print("bilangan lainnya");
   }
 
-  // if (number == 0) {
-  //   print("noll");
-  // } else if (number == 1) {
-  //   print("satu");
-  // } else if (number == 2) {
-  //   print("dua");
-  // }else {
-  //   print("bilangan lainnya");
-  // }
+  print("=====================================");
 
+  if (number == 0) {
+    print("noll");
+  } else if (number == 1) {
+    print("satu");
+  } else if (number == 2) {
+    print("dua");
+  } else {
+    print("bilangan lainnya");
+  }
 }
